@@ -1,0 +1,29 @@
+site_name: My MkDocs Site
+site_url: https://caishenzhengxianggeiqianduixiang.github.io/type/ # 部署后的网站地址
+
+theme:
+  name: material
+  # palette:
+  #   primary: indigo
+  #   accent: pink
+  # font:
+  #   text: Roboto
+  #   code: Roboto Mono
+
+nav:
+  - Home: index.md
+  - Fonts: The Anatomy of Type.md # 你要写的字体笔记文件
+
+extra:
+  Adobe_Jenson: Adobe Jenson
+  Cala: Cala
+  Bemboo_Book: Bembo Book
+  FF_Clifford: FF Clifford
+  FF_Scala: FF Scala
+  Lexicon: Lexicon
+  Minion: Minion
+  Garamond_Premier: Garamond Premier
+  MVB_Verdigris: MVB Verdigris
+
+extra_css:
+  - styles/extra.css
