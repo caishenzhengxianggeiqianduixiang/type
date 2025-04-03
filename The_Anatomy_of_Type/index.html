@@ -1,0 +1,516 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://caishenzhengxianggeiqianduixiang.github.io/type/The_Anatomy_of_Type/">
+      
+      
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.11">
+    
+    
+      
+        <title>The Anatomy of Type - My MkDocs Site</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.4af4bdda.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../styles/extra.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-anatomy-of-type" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="My MkDocs Site" class="md-header__button md-logo" aria-label="My MkDocs Site" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My MkDocs Site
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              The Anatomy of Type
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="My MkDocs Site" class="md-nav__button md-logo" aria-label="My MkDocs Site" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    My MkDocs Site
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../The Anatomy of Type.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Fonts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#humanist-serif" class="md-nav__link">
+    <span class="md-ellipsis">
+      Humanist Serif
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Humanist Serif">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#adobe_jenson" class="md-nav__link">
+    <span class="md-ellipsis">
+      {{Adobe_Jenson}}
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cala" class="md-nav__link">
+    <span class="md-ellipsis">
+      {{Cala}}
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bembo_book" class="md-nav__link">
+    <span class="md-ellipsis">
+      {{Bembo_Book}}
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ff_clifford" class="md-nav__link">
+    <span class="md-ellipsis">
+      {{FF_Clifford}}
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ff_scala" class="md-nav__link">
+    <span class="md-ellipsis">
+      {{FF_Scala}}
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#lexion" class="md-nav__link">
+    <span class="md-ellipsis">
+      {{Lexion}}
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#minion" class="md-nav__link">
+    <span class="md-ellipsis">
+      {{Minion}}
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#garamond_premier" class="md-nav__link">
+    <span class="md-ellipsis">
+      {{Garamond_Premier}}
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mvb_verdigris" class="md-nav__link">
+    <span class="md-ellipsis">
+      {{MVB_Verdigris}}
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="the-anatomy-of-type">The Anatomy of Type</h1>
+<h2 id="humanist-serif">Humanist Serif</h2>
+<h3 id="adobe_jenson"><a href="https://fonts.adobe.com/fonts/adobe-jenson">{{Adobe_Jenson}}</a></h3>
+<ul>
+<li>Designer: (Nicolas Jenson, Ludovico degli Arrighi) Robert Slimbach</li>
+<li>Foundry: Adobe</li>
+<li>Country of origin: (Italy) United States</li>
+<li>Release years: (1470) 1995–2000</li>
+<li>Classification: Venetian Humanist Serif</li>
+<li><img alt="Text sample of {{Adobe_Jenson}}" src="/type%20sample_img/Adobe_Jenson.svg" /></li>
+</ul>
+<p>Made in the Renaissance period, Nicolas Jenson’s typeface is one of the very first with roman lettershapes. It is called a Venetian serif, distinguished from other Humanist serifs by its obviously calligraphic construction and its angled, beaked “e.” There are many interpretations of Jenson’s work, but Adobe’s is one of the most visually appealing and functional. It has four complete subfamilies (called “optical sizes”) to emulate the size-specific designs of the original metal type. Among these, Caption is dark with sturdy serifs and low stroke contrast for small text, whereas Display is light and delicate, with fine details and long extenders for lovely titles. <strong>Good for</strong>: Any text, short or long, that calls for a rich, flowery perfume.</p>
+<h3 id="cala"><a href="https://www.myfonts.com/collections/cala-font-hoftype">{{Cala}}</a></h3>
+<ul>
+<li>Designer: Dieter Hofrichter</li>
+<li>Foundry: Hoftype</li>
+<li>Country of origin: Germany</li>
+<li>Release year: 2011</li>
+<li>Classification: Venetian Humanist Serif</li>
+<li><img alt="Text sample of {{Cala}}" src="" /></li>
+</ul>
+<p>Cala is a contemporary Venetian. Dieter Hofrichter retained the unique characteristics of the Renaissance serif — the tilting “e,” the calligraphic strokes with soft ends and blunt serifs — but stripped out the more decorative details. Its proportions are more modern as well, with a slightly larger x-height and cap widths that are more in tune with today’s readers (compare to Jenson’s “E,” “H,” and “Z”). While Adobe Jenson calls direct attention to its antique roots, Cala just nods to them. <strong>Good for</strong>: Subject matter with one foot in the past and one in the present. Websites with a historical focus.</p>
+<h3 id="bembo_book"><a href="https://www.myfonts.com/collections/bembo-book-font-monotype-imaging?srsltid=AfmBOop8TAlvHgPECCIUiTKUngI2i7XUYSfIrwsaRq9j0cTApo033bCZ">{{Bembo_Book}}</a></h3>
+<ul>
+<li>Designer: (Aldus Manutius, Francesco Griffo) Monotype staff</li>
+<li>Foundry: Monotype</li>
+<li>Country of origin: (Italy) United Kingdom</li>
+<li>Release year: (1495) 2005</li>
+<li>Classification: Venetian Humanist Serif</li>
+<li><img alt="Text sample of {{Bembo_Book}}" src="/type%20sample_img/Bembo_Book_sample.png" /></li>
+</ul>
+<p>Bembo is the most popular of the Renaissance serifs, frequently called upon for setting elegant book text ever since it was cut by Monotype in 1929. The digital version, however, is a feeble shadow of the metal type. Like so many of the revivals that appeared in desktop publishing’s early years, Bembo is far too delicate for modern printing, and certainly for the screen. Monotype went back to the digital drawing board for Bembo Book, which retains the proper weight of the original. It also offers a very welcome alternative “R” with a leg that doesn’t stretch so far, thereby not creating gaps or tripping its neighbors. Good for: Long text on good, soft paper. Historical novels.</p>
+<h3 id="ff_clifford"><a href="https://www.myfonts.com/collections/ff-clifford-font-fontfont?srsltid=AfmBOoqE_n_nvdMEvKvF2lTZEO2bWp8NsRzmwPFi8Edp26rzn0vYhhdb">{{FF_Clifford}}</a></h3>
+<ul>
+<li>Designer: Akira Kobayashi</li>
+<li>Foundry: FontFont</li>
+<li>Country of origin: Japan, Germany</li>
+<li>Release year: 1999</li>
+<li>Classification: Humanist Serif, Dutch/English Transitional Serif</li>
+<li><a href="">Text sample of {{FF_Clifford}}</a></li>
+</ul>
+<h3 id="ff_scala"><a href="https://fonts.adobe.com/fonts/scala">{{FF_Scala}}</a></h3>
+<ul>
+<li>Designer: Martin Majoor</li>
+<li>Foundry: FontFont</li>
+<li>Country of origin: The Netherlands</li>
+<li>Release year: 1990</li>
+<li>Classification: Dutch/French Humanist Serif</li>
+<li><img alt="Text sample of {{FF_Scala}}" src="/type%20sample_img/FF%20Scala_SpecimenAIB.svg" /></li>
+</ul>
+<p>While serif types like FF Clifford are warm and curvaceous, FF Scala is hard-edged and constructed. Released in 1990, but designed several years earlier, FF Scala is one of the first typefaces in this style to be designed specifically on and for the computer. Its shapes reflect that fact, with straight lines, rectangular, unbracketed serifs, and sharp points. These aspects are less stark at Text sizes, but the overall effect is a very fresh, modern feeling despite a calligraphic structure that is essentially hundreds of years old. The simplified contours make FF Scala an excellent screen typeface. It truly is an old-style serif for the digital world. <strong>Good for</strong>: Modern art exhibition catalogs and websites.</p>
+<h3 id="lexion"><a href="http://www.teff.nl/fonts/lexicon/">{{Lexion}}</a></h3>
+<ul>
+<li>Designer: Bram de Does</li>
+<li>Foundry: <a href="http://www.teff.nl/">Enschedé</a></li>
+<li>Country of origin: The Netherlands</li>
+<li>Release year: 1992</li>
+<li>Classification: Dutch</li>
+<li>Humanist/Transitional Serif</li>
+<li><img alt="Text sample of {{Lexion}}" src="/type%20sample_img/Lexicon_Specimen.png" /></li>
+</ul>
+<p>Lexicon was created specifically for dictionaries. As such, it is optimized for maximum readability in a minimum of space. It achieves this using methods that have become identified with Dutch type design: a calligraphic yet efficient construction, narrow width, and very light junctions where curved strokes meet stems, allowing ink to spread without affecting legibility. Despite these functional aspects, Lexicon has a graceful flow that is quite appealing at any size: No.1 has very short extenders, maximizing spatial economy; No.2 offers longer extenders when space isn’t at such a premium. The two variants share the same width, so you can switch without text reflow. <strong>Good for</strong>: Dictionaries, Bibles, timetables, newspapers, and other dense text.</p>
+<h3 id="minion"><a href="https://fonts.adobe.com/fonts/minion">{{Minion}}</a></h3>
+<ul>
+<li>Designer: Robert Slimbach</li>
+<li>Foundry: Adobe</li>
+<li>Country of origin: United States</li>
+<li>Release year: 1990</li>
+<li>Classification: Venetian/French Humanist Serif</li>
+<li><img alt="Text sample of {{Minion}}" src="/type%20sample_img/Minion_opticals_sample.png" /></li>
+</ul>
+<p>Minion is perhaps the most vanilla of serif typefaces. This isn’t necessarily a negative — often the goal of a text face is to make as little aesthetic impact as possible. Minion does just that. It can be your everyday hardworking, utilitarian serif. In many ways, Minion is a modernized Garamond or Bembo: the x-height is larger, counters and apertures are more open, serifs are chunkier, and superfluous details are reduced. These effects are maximized in the Caption version, meant for small sizes. For large type, Display is more like its historical models: delicate, with lengthened extenders and sharper serifs. <strong>Good for</strong>: When you really don’t want anyone to notice the type.</p>
+<h3 id="garamond_premier"><a href="https://fonts.adobe.com/fonts/garamond-premier">{{Garamond_Premier}}</a></h3>
+<ul>
+<li>Designer: (Claude Garamond, Robert Granjon) Robert Slimbach</li>
+<li>Foundry: Adobe Country of origin: (France) United States</li>
+<li>Release year: 2005</li>
+<li>Classification: French Humanist Serif</li>
+<li><img alt="Text sample of {{Garamond_Premier}}" src="/type%20sample_img/Garamond_SpecimenA.svg" /></li>
+</ul>
+<p>Refined and readable, Garamond is probably the most popular of the Humanist serifs. Longtime users of Adobe apps will be familiar with Robert Slimbach’s first crack at this classic typeface, Adobe Garamond, but Garamond Premier is a major improvement. The most important difference is that Slimbach drew separate subfamilies (optical sizes) corresponding to different sizes of metal type. This lets Garamond’s delicate beauty stretch out in headlines but not break apart when small. Despite a subdued character in Caption and Regular (Text) sizes, Garamond is never dull by any means. Use with care: it has a formal personality that might not fit more casual topics. <strong>Good for</strong>: Infusing a document with importance, reverence, or poetry.</p>
+<h3 id="mvb_verdigris"><a href="https://fonts.adobe.com/fonts/mvb-verdigris-pro">{{MVB_Verdigris}}</a></h3>
+<ul>
+<li>Designer: Mark van Bronkhorst</li>
+<li>Foundry: <a href="https://www.mvbfonts.com/mvb_verdigris_pro">MVB Fonts</a></li>
+<li>Country of origin: United States - Release years: 2003, 2010, 2012</li>
+<li>Classification: French Humanist Serif</li>
+</ul>
+<p>When type was metal or wood, every font was a specific size. The scalability of photo and digital type was a productivity boon, but much was lost in the process. Modern interpretations of classic metal typefaces were based on a single size and they often replicated the metal face itself, not the richness and weight of the type’s impression on paper. The result was anemic and fragile. MVB Verdigris is a direct response to these shortcomings. A distinguished Garalde inspired by 16th-century punchcutters, MVB Verdigris comes in a sturdy, functional version for text and a handsome, high-contrast version for titling. Typographic niceties abound, including a set of useful “mid caps” sized between full and small caps. This is truly a text serif for the digital age.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
